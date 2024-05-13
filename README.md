@@ -3,7 +3,13 @@ Welcome to the Training Management System (TMS) README! This application is desi
 
 # Features
 ## Training Modules
-TMS offers a variety of training modules covering different topics and skill areas. Users can access these modules, complete them at their own pace, and receive scores based on their performance.
+TMS offers a training modules which simulate activities and return a score by using python randint function that returns a score between 1 and 100.
+
+```python
+import random
+
+random.randint(1, 100)
+```
 
 ## Leaderboard
 The leaderboard showcases the top performers on the platform based on training completion and scores. Users can see where they rank compared to their peers and strive to climb the leaderboard by achieving higher scores.
